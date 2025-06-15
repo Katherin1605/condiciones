@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(253, 255, 188);
+    font-family: "LXGW Marker Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    margin: 4rem 0 4rem 0;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    background-color: rgb(107, 223, 159);
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+.botn {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.btn {
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-family: "LXGW Marker Gothic", sans-serif;
+    font-size:medium;
+    background-color: rgb(107, 223, 159);
+    cursor: pointer;
+    animation: latido 1s infinite;
+}
+
+@keyframes latido {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+p {
+    font-size: larger;
+    margin-top: 3rem;
+    text-align: center;
+}

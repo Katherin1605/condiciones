@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 2rem;
+    background-color: blanchedalmond;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    background-color: rgb(213, 146, 247);
+    border-radius: 3px;
+    padding: 3px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.imagen {
+    transition: transform 0.5s ease-in-out;
+    animation: image 3s;
+}
+
+@keyframes image {
+    0% {
+        transform: translateX(-250%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
